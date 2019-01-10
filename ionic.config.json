@@ -1,5 +1,7 @@
 {
   "name": "ionic-v4rc-regression",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
