@@ -6,7 +6,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { IonicModule } from "@ionic/angular";
 
 import { PageOutsideTabsPage } from "./page-outside-tabs.page";
-import { HeaderButtonComponent } from "../header-button/header-button.component";
+import { HeaderButtonModule } from "../header-button/header-button.module";
 
 const routes: Routes = [
   {
@@ -20,8 +20,9 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
+    HeaderButtonModule,
     RouterModule.forChild(routes)
   ],
-  declarations: [PageOutsideTabsPage, HeaderButtonComponent]
+  declarations: [PageOutsideTabsPage]
 })
 export class PageOutsideTabsPageModule {}
