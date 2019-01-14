@@ -17,6 +17,7 @@ import { HeaderButtonModule } from "../header-button/header-button.module";
     TabsPageRoutingModule,
     HeaderButtonModule
   ],
+  exports: [HeaderButtonModule],
   declarations: [TabsPage]
 })
 export class TabsPageModule {}
